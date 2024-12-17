@@ -1,34 +1,59 @@
-body {
-    background-color: #851C44 !important;
+.primeira{
+  background-color: #851C44 !important;
+
 }
 
-/* From Uiverse.io by adamgiebl */ 
+/* botão */
 .cssbuttons-io-button {
-    display: flex;
-    align-items: center;
-    font-family: inherit;
-    cursor: pointer;
-    font-weight: 500;
-    font-size: 17px;
-    padding: 0.8em 1.5em 0.8em 1.2em;
-    color: white;
-    background: linear-gradient(
-      0deg,
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0.8em 1.5em 0.8em 1.2em;
+  color: white;
+  background: linear-gradient(0deg,
       #E28B22 0%,
-      #E28B22 100%
-    );
-    border: none;
-    box-shadow: 0 0.7em 1.5em -0.5em #f5f5f5be;
-    letter-spacing: 0.05em;
-    border-radius: 20em;
-  }
-  
-  .cssbuttons-io-button svg {
-    margin-right: 8px;
-  }
-  
-  .cssbuttons-io-button:hover {
-    box-shadow: 0 0.5em 1.5em -0.5em #e8e7ebbe;
-  }
-  
-  
+      #E28B22 100%);
+  border: none;
+  box-shadow: 0 0.7em 1.5em -0.5em #f5f5f5be;
+  letter-spacing: 0.05em;
+  border-radius: 20em;
+}
+
+.cssbuttons-io-button svg {
+  margin-right: 8px;
+}
+
+.cssbuttons-io-button:hover {
+  box-shadow: 0 0.5em 1.5em -0.5em #e8e7ebbe;
+}
+
+
+section svg {
+  margin-top: -320px; /* Ajuste para mover o SVG */
+}
+
+
+ /* segunda parte */ 
+.intro-section {
+  background-color: #FBD7BF; /* Nova cor de fundo */
+  color: #000; /* Cor do texto ajustada para contraste */
+  padding: 10rem ; /* Espaçamento interno */
+}
+
+.intro-section h1 {
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+}
+
+.intro-section p {
+  font-family: 'Verdana', sans-serif;
+  line-height: 1.6;
+}
+
+#segunda {
+  position: relative;
+  top: -50px; /* Ajuste esse valor conforme necessário */
+}
